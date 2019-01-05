@@ -1,0 +1,19 @@
+{
+    "name": "william/ai-bai-du",
+    "description": "This is sdk for baidu aip.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "马良彬",
+            "email": "maliangbin@hoge.cn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Baidu\\Aip\\": "src/"
+        }
+    }
+}
