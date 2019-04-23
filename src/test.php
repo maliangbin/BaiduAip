@@ -18,6 +18,7 @@ const SECRET_KEY = 'feew2Gn3XwpKaCCGcOmC1yRmLdR9dov5';
 
 $client = new AipImageCensor(APP_ID, API_KEY, SECRET_KEY);
 
-$res = $client->antiSpam('卧槽尼玛');
+// 修改测试用语
+$res = $client->antiSpam('卧槽很牛掰');
 
 var_dump($res);exit;
