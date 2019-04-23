@@ -3,7 +3,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use Baidu\Aip\AipImageCensor;
 
-// 你的 APPID AK SK。第一次修改。
+// 你的 APPID AK SK.第二次修改
 const APP_ID = 'your APP_ID';
 const API_KEY = 'your API_KEY';
 const SECRET_KEY = 'your SECRET_KEY';
