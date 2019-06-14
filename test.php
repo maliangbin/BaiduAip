@@ -4,6 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Baidu\Aip\AipImageCensor;
 
 // 你的 APPID AK SK
+// 修补的bug代码
 const APP_ID = 'your APP_ID';
 const API_KEY = 'your API_KEY';
 const SECRET_KEY = 'your SECRET_KEY';
