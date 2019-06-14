@@ -10,6 +10,6 @@ const SECRET_KEY = 'your SECRET_KEY';
 
 $client = new AipImageCensor(APP_ID, API_KEY, SECRET_KEY);
 
-$res = $client->antiSpam('卧槽尼玛 文明用语');
+$res = $client->antiSpam('卧槽 文明用语');
 
 var_dump($res);exit;
